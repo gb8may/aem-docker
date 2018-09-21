@@ -8,7 +8,7 @@ AEM_6.X_Quickstart.jar & license.properties required in the project root
 Update the VERSION environment variable in the `.env` file for your version of the AEM_6.X_Quickstart.jar
 for example:
 ```
-VERSION=6.3
+VERSION=6.4
 ```
 
 ## aem-base
@@ -29,7 +29,7 @@ docker build -t aem-dispatcher .
 
 ## docker-compose
 
-Use docker-compose to create the author and publisher images if they do not already exist and implement the containers.
+Use docker-compose to create the author and publisher images if they do not already exist and implement the containers. This part of process will take several minutes.
 
 ```bash
 docker-compose up -d
